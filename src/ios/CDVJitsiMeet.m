@@ -73,10 +73,11 @@
         
         BOOL videoMuted = [[meetingOptions objectForKey:@"audioMuted"] boolValue];
         [builder setVideoMuted:videoMuted];
-        
+
+        /* this option is gone now
         BOOL welcomePageEnabled = [[meetingOptions objectForKey:@"welcomePageEnabled"] boolValue];
         [builder setWelcomePageEnabled:welcomePageEnabled];
-        
+        */
         
         //flags
         NSDictionary *flags = [meetingOptions objectForKey:@"flags"];
