@@ -76,7 +76,7 @@
 
         <podspec>
             <pods use-frameworks="true" >
-                <pod name="JitsiMeetSDK" spec="8.3.1">
+                <pod name="JitsiMeetSDK" spec="8.3.1" />
             </pods>
         </podspec>
 
