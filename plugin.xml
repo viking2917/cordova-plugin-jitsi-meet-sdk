@@ -51,7 +51,7 @@
 		<framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
     </platform>
 
-    <!-- ios 
+    <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="JitsiMeet">
