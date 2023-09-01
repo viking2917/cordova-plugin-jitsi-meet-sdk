@@ -121,7 +121,8 @@ public class JitsiMeet extends CordovaPlugin {
             builder.setAudioMuted(JSONoptions.optBoolean("audioMuted",false));
             builder.setVideoMuted(JSONoptions.optBoolean("videoMuted",false));
             builder.setAudioOnly(JSONoptions.optBoolean("audioOnly",false));
-            builder.setWelcomePageEnabled(JSONoptions.optBoolean("welcomePageEnabled",false));
+            // obsolete.
+            // builder.setWelcomePageEnabled(JSONoptions.optBoolean("welcomePageEnabled",false));
 
             // Required to bypass call dealer issue
             builder.setFeatureFlag("call-integration.enabled", false);
