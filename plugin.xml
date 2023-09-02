@@ -43,12 +43,8 @@
             </feature>
         </config-file>
 
-		<!--  <dependency id="cordova-plugin-androidx"/> -->
-
-
         <source-file src="src/android/JitsiMeet.java" target-dir="src/org/jitsi/meet/JitsiMeet" />
-
-		<framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+	<framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
     </platform>
 
     <!-- ios -->
@@ -76,7 +72,7 @@
 
         <podspec>
             <pods use-frameworks="true" >
-                <pod name="JitsiMeetSDK" spec="8.3.1" />
+                <pod name="JitsiMeetSDK" spec="7.0.1" />
             </pods>
         </podspec>
 
