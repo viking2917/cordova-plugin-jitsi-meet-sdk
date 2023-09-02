@@ -1,3 +1,6 @@
+This is a fork of https://github.com/Zeno97/cordova-plugin-jitsi-meet-sdk. It uses Jitsi SDK version 7, rather than version 3 used by Zeno97, and corrects a few minor bugs.
+
+
 # cordova-plugin-jitsi-meet-sdk
 Cordova plugin for Jitsi Meet React Native SDK.
 
@@ -6,7 +9,7 @@ All options, feature flags and listeners are available.
 All feature flags available can be found here: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
 
 ## Supported Platforms
-- __Android__ >= 23
+- __Android__ >= 24
 - __iOS__
 
 ## Installation
@@ -18,9 +21,10 @@ cordova plugin add cordova-plugin-jitsi-meet-sdk
 ```
 
 ## Usage
-All paramenters are optional except for room. You need to specify at least the room name.
+All parameters are optional except for room. You need to specify at least the room name.
 
 - If serverURL is not specified by default is "https://meet.jit.si".
+- NOTE: DO NOT USE meet.jit.si. FOR PRODUCTION. It is not supported for that,and has a 5 minute demo limit. Per their recommendations use either a self-hosted jitsi server or JAAS (https://8x8.vc).
 
 - All feature flags not specified are in their default value.
 
