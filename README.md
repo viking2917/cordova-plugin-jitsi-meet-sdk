@@ -1,5 +1,7 @@
 This is a fork of https://github.com/Zeno97/cordova-plugin-jitsi-meet-sdk. It uses Jitsi SDK version 7, rather than version 3 used by Zeno97, and corrects a few minor bugs.
 
+(actually it uses Jitsi 8 on Android due to a "missing icon" bug in previous versions. Why iOS wasn't working for me on version 8 eludes me at present.)
+
 
 # cordova-plugin-jitsi-meet-sdk
 Cordova plugin for Jitsi Meet React Native SDK.
