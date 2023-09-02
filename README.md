@@ -26,7 +26,7 @@ cordova plugin add cordova-plugin-jitsi-meet-sdk
 All parameters are optional except for room. You need to specify at least the room name.
 
 - If serverURL is not specified by default is "https://meet.jit.si".
-- NOTE: DO NOT USE meet.jit.si. FOR PRODUCTION. It is not supported for that,and has a 5 minute demo limit. Per their recommendations use either a self-hosted jitsi server or JAAS (https://8x8.vc).
+- _NOTE: DO NOT USE meet.jit.si. for production_. It is not supported for that,and has a 5 minute demo limit. Per their recommendations use either a self-hosted jitsi server or JAAS (https://8x8.vc).
 
 - All feature flags not specified are in their default value.
 
