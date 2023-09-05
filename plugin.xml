@@ -56,15 +56,15 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-            <string>For meeting purpose</string>
+            <string>For video chat</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>For meeting purpose</string>
+            <string>For video chat</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
-            <string>For meeting purpose</string>
+            <string>For video chat</string>
         </config-file>
 
         <header-file src="src/ios/CDVJitsiMeet.h" />
