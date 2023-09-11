@@ -228,4 +228,14 @@
     [self.commandDelegate sendPluginResult:self.result
                                 callbackId:self.lastCallbackId];
 }
+
+- (void)readyToClose:(NSDictionary *)data {
+    NSLog(@"ready to close");
+    
+    self.result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK
+                                 messageAsString:@"READY_TO_CLOSE"];
+    [self.result setKeepCallbackAsBool:YES];
+    [self.commandDelegate sendPluginResult:self.result
+                                callbackId:self.lastCallbackId];
+}
 @end
